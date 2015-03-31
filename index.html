@@ -1,55 +1,175 @@
 <!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="brentmaxwell.github.io : ">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>brentmaxwell.github.io</title>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>brentmaxwell.github.io</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
   </head>
-
   <body>
+	<div class="container-fluid">
+		<div class="jumbotron text-center">
+			<h1>brentmaxwell.github.io</h1>
+			<p>My little place to develop stuff.</p>
+			<a href="http://thebrent.net/">theBrent.net</a>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<ul class="nav nav-pills nav-stacked" style="margin-top:40px">
+					<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+					<li role="presentation" ><a href="#wordpress" aria-controls="wordpress" role="tab" data-toggle="tab">Wordpress</a></li>
+					<li role="presentation" ><a href="#gists" aria-controls="gists" role="tab" data-toggle="tab">Gists</a></li>
+					<li role="presentation" ><a href="#other" aria-controls="other" role="tab" data-toggle="tab">Other</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-9">
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="home">
+						<div class="page-header">
+							<h2>Home</h2>
+						</div>
+						<p>I develop stuff in php and .NET (mostly C#, but sometimes I have to bang my head against some VB).</p>
+						<p>I do a lot of hacking around with Linux, Arduino, Netduino, Raspberry Pi, home automation, wearables, and new and emerging technologies.</p>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="wordpress">
+						<div class="page-header">
+							<h2>Wordpress</h2>
+							<p>I've developed some plugins and stuff for wordpress. Mostly just to solve problems I had, but some might be useful to others.</p>
+						</div>
+					
+						<h3>
+							<a href="https://github.com/brentmaxwell/WordPressOneliners">WordPress Oneliners</a>
+						</h3>
+						<p>A WordPress plugin for snappy oneliners</p>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/brentmaxwell">View on GitHub</a>
+						<h3>
+							<a href="https://github.com/brentmaxwell/WordpressArchiveCloud">WordpressArchiveCloud</a>
+						</h3>
+						<p>Archive widget to display archives in a tag-cloud format</p>
+						
+						<h3>
+							<a href="https://github.com/brentmaxwell/WordpressPrivateSite">WordpressPrivateSite</a>
+						</h3>
+						<p>Plugin to make sites private. with multi-site capabilities</p>
+						
+						<h3>
+							<a href="https://github.com/brentmaxwell/WordPress-Strava-Importer-for-Keyring">WordPress-Strava-Importer-for-Keyring</a>
+						</h3>
+						<p>Strava importer for Wordpress Keyring plugin</p>
 
-          <h1 id="project_title">brentmaxwell.github.io</h1>
-          <h2 id="project_tagline"></h2>
+						<h3>
+							<a href="https://github.com/brentmaxwell/MyActiveLife">MyActiveLife</a>
+						</h3>
+						<p>Wordpress theme and plugin to track fitness data</p>
 
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a id="my-projects" class="anchor" href="#my-projects" aria-hidden="true"><span class="octicon octicon-link"></span></a>My projects</h1>
-
-<ul>
-<li>Wordpress
-
-<ul>
-<li><a href="/WordPressOneliners/">Wordpress Oneliners Plugin</a></li>
-<li><a href="/WordPress-Strava-Importer-for-Keyring/">Wordpress Strava Importer for Keyring</a></li>
-</ul>
-</li>
-</ul>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+						<h3>
+							<a href="https://github.com/brentmaxwell/WordPressHomeAutomation">WordPressHomeAutomation</a>
+						</h3>
+						<p>Set of plugins to use WordPress to manage a home automation system</p>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="gists">
+						<div class="page-header">
+							<h2>Gists</h2>
+							<p>Stuff I have found useful.</p>
+						</div>
+						<div class="panel-group" id="panel-gists" role="tablist">
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="gist-heading-1">
+									<h3 class="panel-title">
+										<a data-toggle="collapse" data-parent="#panel-gists" href="#gist-1">
+											IP Address conversions in SQL
+										</a>
+									</h3>
+								</div>
+								<div id="gist-1" class="panel-collapse collapse" role="tabpanel">
+									<div class="panel-body">
+										<script src="https://gist.github.com/brentmaxwell/081fb63ad8bdb2ee44aa.js"></script>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="gist-heading-2">
+									<h3 class="panel-title">
+										<a data-toggle="collapse" data-parent="#panel-gists" href="#gist-2">
+											Delimited string to table
+										</a>
+									</h3>
+								</div>
+								<div id="gist-2" class="panel-collapse collapse" role="tabpanel">
+									<div class="panel-body">
+										<script src="https://gist.github.com/brentmaxwell/ad02f6a5111e90e54867.js"></script>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="gist-heading-3">
+									<h3 class="panel-title">
+										<a data-toggle="collapse" data-parent="#panel-gists" href="#gist-3">
+											Put automapper configs in model classes
+										</a>
+									</h3>
+								</div>
+								<div id="gist-3" class="panel-collapse collapse" role="tabpanel">
+									<div class="panel-body">
+										<script src="https://gist.github.com/brentmaxwell/c4dce0b7b4a46ac392a9.js"></script>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="gist-heading-4">
+									<h3 class="panel-title">
+										<a data-toggle="collapse" data-parent="#panel-gists" href="#gist-4">
+											Get *approximate* row counts of all tables in a db
+										</a>
+									</h3>
+								</div>
+								<div id="gist-4" class="panel-collapse collapse" role="tabpanel">
+									<div class="panel-body">
+										<script src="https://gist.github.com/brentmaxwell/4c71de0eeb499b85e389.js"></script>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="gist-heading-5">
+									<h3 class="panel-title">
+										<a data-toggle="collapse" data-parent="#panel-gists" href="#gist-5">
+											Extensions to convert Unix time to DateTime
+										</a>
+									</h3>
+								</div>
+								<div id="gist-5" class="panel-collapse collapse" role="tabpanel">
+									<div class="panel-body">
+										<script src="https://gist.github.com/brentmaxwell/81f2e335a2da61db3746.js"></script>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="other">
+						<div class="page-header">
+							<h2>Other</h2>
+							<p>Other projects</p>
+						</div>
+						<h3>
+							<a href="https://github.com/brentmaxwell/ApiDefinitions">ApiDefinitions</a>
+						</h3>
+						<p>Collection of WADL files for Apigee console to-go</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+	</body>
 </html>
