@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/brentmaxwell
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://brentmaxwell.github.io
+  * I am brentmaxwell (https://keybase.io/brentmaxwell) on keybase.
+  * I have a public key ASC9zxo3TOhn-e2QXODbKiNTA741UdT0zBBqLMNLkSN8OQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101a8c477ddc6e091c6f24bd7f0038592b35317163a73c1bc31f0479c04c6efbe1c0a",
+            "host": "keybase.io",
+            "kid": "0120bdcf1a374ce867f9ed905ce0db2a235303be3551d4f4cc106a2cc34b91237c390a",
+            "uid": "4398e8f5e3484c8142de93b70aa85e19",
+            "username": "brentmaxwell"
+        },
+        "service": {
+            "hostname": "brentmaxwell.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.20"
+    },
+    "ctime": 1489668466,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1489668393,
+        "hash": "f4def2ab2ed834a352f50650426994d4bd1134cedf22128334819295af53c440e1f647ca286af505d372b46b762d6016d17883018ae26a0d37933c3f26b532c1",
+        "seqno": 962329
+    },
+    "prev": "cf8179eb252cb7e9ee9c59b87ba429548905b55e7d9c4b2c5ee518712919c66c",
+    "seqno": 75,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgvc8aN0zoZ/ntkFzg2yojUwO+NVHU9MwQaizDS5EjfDkKp3BheWxvYWTFAwN7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYThjNDc3ZGRjNmUwOTFjNmYyNGJkN2YwMDM4NTkyYjM1MzE3MTYzYTczYzFiYzMxZjA0NzljMDRjNmVmYmUxYzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYmRjZjFhMzc0Y2U4NjdmOWVkOTA1Y2UwZGIyYTIzNTMwM2JlMzU1MWQ0ZjRjYzEwNmEyY2MzNGI5MTIzN2MzOTBhIiwidWlkIjoiNDM5OGU4ZjVlMzQ4NGM4MTQyZGU5M2I3MGFhODVlMTkiLCJ1c2VybmFtZSI6ImJyZW50bWF4d2VsbCJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiYnJlbnRtYXh3ZWxsLmdpdGh1Yi5pbyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIwIn0sImN0aW1lIjoxNDg5NjY4NDY2LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0ODk2NjgzOTMsImhhc2giOiJmNGRlZjJhYjJlZDgzNGEzNTJmNTA2NTA0MjY5OTRkNGJkMTEzNGNlZGYyMjEyODMzNDgxOTI5NWFmNTNjNDQwZTFmNjQ3Y2EyODZhZjUwNWQzNzJiNDZiNzYyZDYwMTZkMTc4ODMwMThhZTI2YTBkMzc5MzNjM2YyNmI1MzJjMSIsInNlcW5vIjo5NjIzMjl9LCJwcmV2IjoiY2Y4MTc5ZWIyNTJjYjdlOWVlOWM1OWI4N2JhNDI5NTQ4OTA1YjU1ZTdkOWM0YjJjNWVlNTE4NzEyOTE5YzY2YyIsInNlcW5vIjo3NSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEC6jZSXvD+30Rx1ja8op3xBuQ3ohCWr2/x9+8EGyCr/QK3rzbgY6IGuyy9rB7LwWuwgcdodPrJKPHpLkE6FBPcIqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgdE0Wsy0vgU1/8dU/4QAaXV8XLFOZAGOqxS7wTf7H9p+jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brentmaxwell
+
+==================================================================
